@@ -21,15 +21,21 @@ export default function Banner() {
   return (
     <>
       <header>
-        <Flex align="center" justify="space-between" ml={10} mr={10} h="65px">
+        <Flex align="center" justify="space-between" ml={8} mr={6} h="60px">
           <Box>
-            <Image boxSize="100px" src={brandLogo} alt="brand" />
+            <Image boxSize="110px" p={1} src={brandLogo} alt="brand" />
           </Box>
           <Box>
-            <Button pr={3} colorScheme="gray.600" fontSize="m" variant="link">
+            <Button
+              pr={3}
+              colorScheme="gray.600"
+              fontSize="sm"
+              variant="link"
+              mr={2}
+            >
               Log in
             </Button>
-            <Button colorScheme="gray.600" fontSize="m" variant="link">
+            <Button colorScheme="gray.600" fontSize="sm" variant="link">
               Sign up
             </Button>
           </Box>
@@ -99,8 +105,8 @@ export default function Banner() {
             mr={4}
             mb={4}
             textTransform="normal"
-            color="ffffff"
-            bg="blue.100"
+            color="white"
+            bg="blue.400"
           >
             Boost your career
           </Badge>
@@ -111,8 +117,8 @@ export default function Banner() {
             mr={4}
             mb={4}
             textTransform="normal"
-            color="ffffff"
-            bg="blue.100"
+            color="white"
+            bg="blue.400"
           >
             Find your zen
           </Badge>
@@ -123,8 +129,8 @@ export default function Banner() {
             mr={4}
             mb={4}
             textTransform="normal"
-            color="ffffff"
-            bg="blue.100"
+            color="white"
+            bg="blue.400"
           >
             Get moving
           </Badge>
@@ -135,8 +141,8 @@ export default function Banner() {
             mr={4}
             mb={4}
             textTransform="normal"
-            color="ffffff"
-            bg="blue.100"
+            color="white"
+            bg="blue.400"
           >
             Share language + culture
           </Badge>
@@ -147,8 +153,8 @@ export default function Banner() {
             mr={4}
             mb={4}
             textTransform="normal"
-            color="ffffff"
-            bg="blue.100"
+            color="white"
+            bg="blue.400"
           >
             Read with friends
           </Badge>
@@ -159,8 +165,8 @@ export default function Banner() {
             mr={4}
             mb={4}
             textTransform="normal"
-            color="ffffff"
-            bg="blue.100"
+            color="white"
+            bg="blue.400"
           >
             Write together
           </Badge>
@@ -171,8 +177,8 @@ export default function Banner() {
             mr={4}
             mb={4}
             textTransform="normal"
-            color="ffffff"
-            bg="blue.100"
+            color="white"
+            bg="blue.400"
           >
             Hone your craft
           </Badge>
@@ -247,7 +253,7 @@ export default function Banner() {
               pt={6}
               pb={6}
               w="100%"
-              color="#ffffff"
+              color="white"
               bg="red.400"
               fontSize="lg"
             >
@@ -279,8 +285,8 @@ export default function Banner() {
                   mr={4}
                   mb={4}
                   textTransform="normal"
-                  color="ffffff"
-                  bg="blue.100"
+                  color="white"
+                  bg="blue.400"
                 >
                   Starting soon
                 </Badge>
@@ -291,8 +297,8 @@ export default function Banner() {
                   mr={4}
                   mb={4}
                   textTransform="normal"
-                  color="ffffff"
-                  bg="blue.100"
+                  color="white"
+                  bg="blue.400"
                 >
                   Today
                 </Badge>
@@ -303,8 +309,8 @@ export default function Banner() {
                   mr={4}
                   mb={4}
                   textTransform="normal"
-                  color="ffffff"
-                  bg="blue.100"
+                  color="white"
+                  bg="blue.400"
                 >
                   Tomorrow
                 </Badge>
@@ -315,8 +321,8 @@ export default function Banner() {
                   mr={4}
                   mb={4}
                   textTransform="normal"
-                  color="ffffff"
-                  bg="blue.100"
+                  color="white"
+                  bg="blue.400"
                 >
                   This week
                 </Badge>
@@ -327,8 +333,8 @@ export default function Banner() {
                   mr={4}
                   mb={4}
                   textTransform="normal"
-                  color="ffffff"
-                  bg="blue.100"
+                  color="white"
+                  bg="blue.400"
                 >
                   Online
                 </Badge>
@@ -339,8 +345,8 @@ export default function Banner() {
                   mr={4}
                   mb={4}
                   textTransform="normal"
-                  color="ffffff"
-                  bg="blue.100"
+                  color="white"
+                  bg="blue.400"
                 >
                   In person
                 </Badge>
@@ -351,8 +357,8 @@ export default function Banner() {
                   mr={4}
                   mb={4}
                   textTransform="normal"
-                  color="ffffff"
-                  bg="blue.100"
+                  color="white"
+                  bg="blue.400"
                 >
                   Trending near you
                 </Badge>

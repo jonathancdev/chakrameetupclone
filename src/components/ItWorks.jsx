@@ -7,6 +7,7 @@ import {
   Link,
   Text,
   Image,
+  Button,
 } from "@chakra-ui/react"
 import joinGroup from "../assets/joinGroup.png"
 import findEvent from "../assets/findEvent.png"
@@ -24,10 +25,16 @@ export default function ItWorks() {
         </Box>
         <Grid templateColumns="repeat(3, 1fr)" gap={6}>
           <Box mx="auto" align="center">
-            <Image w="100%" boxSize="160px" src={joinGroup} alt="barand" />
+            <Image
+              w="100%"
+              boxSize="160px"
+              objectFit="contain"
+              src={joinGroup}
+              alt="brand"
+            />
             <Heading as="h5" size="md">
               <Link>
-                <Box color="blue.100" pb="4">
+                <Box color="blue.400" pb="4">
                   Join a group
                 </Box>
               </Link>
@@ -38,10 +45,16 @@ export default function ItWorks() {
             </Text>
           </Box>
           <Box mx="auto" align="center">
-            <Image w="100%" boxSize="160px" src={findEvent} alt="barand" />
+            <Image
+              w="100%"
+              boxSize="160px"
+              objectFit="contain"
+              src={findEvent}
+              alt="barand"
+            />
             <Heading as="h5" size="md">
               <Link>
-                <Box color="blue.100" pb="4">
+                <Box color="blue.400" pb="4">
                   Find an event
                 </Box>
               </Link>
@@ -52,10 +65,16 @@ export default function ItWorks() {
             </Text>
           </Box>
           <Box mx="auto" align="center">
-            <Image w="100%" boxSize="160px" src={startGroup} alt="barand" />
+            <Image
+              w="100%"
+              boxSize="160px"
+              objectFit="contain"
+              src={startGroup}
+              alt="barand"
+            />
             <Heading as="h5" size="md">
               <Link>
-                <Box color="blue.100" pb="4">
+                <Box color="blue.400" pb="4">
                   Start a group
                 </Box>
               </Link>
@@ -66,6 +85,19 @@ export default function ItWorks() {
             </Text>
           </Box>
         </Grid>
+        <Box>
+          <Box align="center" mt={16}>
+            <Button
+              _hover={{ opacity: "0.8" }}
+              bg="blue.400"
+              color="white"
+              fontWeight="normal"
+              size="md"
+            >
+              Join meetup
+            </Button>
+          </Box>
+        </Box>
       </Container>
     </Box>
   )
